@@ -1,1 +1,1 @@
-# Fake-news-detection-tool
+# Fake Medical News Detection Tool
