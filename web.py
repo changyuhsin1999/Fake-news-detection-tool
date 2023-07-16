@@ -7,6 +7,7 @@ from forms import OriginalTextForm
 
 app = Flask(__name__)
 
+app.config['SECRET_KEY'] = '4c99e0361905b9f941f17729187afdb9'
 
 @app.route("/", methods=['POST', 'GET'])
 def home():
