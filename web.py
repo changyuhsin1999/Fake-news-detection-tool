@@ -1,8 +1,8 @@
 from flask import Flask, jsonify, request, render_template, redirect, url_for
-from prediction_model import PredictionModel
+from prediction import PredictionModel
 import pandas as pd
 from random import randrange
-from forms import OriginalTextForm
+from format import OriginalTextForm
 
 
 app = Flask(__name__)
@@ -24,7 +24,7 @@ def home():
             model = PredictionModel(form.original_text.data)
             return render_template('main.html', form=form, output=model.predict())
 
-    return render_template('home.html', form=form, output=False)
+    return render_template('main.html', form=form, output=False)
 
 
 @app.route('/predict/<original_text>', methods=['POST', 'GET'])
@@ -36,7 +36,7 @@ def predict(original_text):
 
 @app.route('/random', methods=['GET'])
 def random():
-    data = pd.read_csv("random_dataset.csv")
+    data = pd.read_csv("raw_df.csv")
     index = randrange(0, len(data)-1, 1)
     return jsonify({'title': data.loc[index].title, 'text': data.loc[index].text, 'label': str(data.loc[index].label)})
 
