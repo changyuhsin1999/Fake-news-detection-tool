@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, request, render_template, redirect, url_for
-from prediction_model import PredictionModel
+from prediction import PredictionModel
 import pandas as pd
 from random import randrange
 from forms import OriginalTextForm
