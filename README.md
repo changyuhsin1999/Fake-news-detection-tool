@@ -6,5 +6,5 @@ As we live in this era with exploding information content, it is always difficul
 The purpose of this module is to let people copy and paste the medical news that they found and do a quick fact check to see whether it is reliable to trust the sources.
 
 ## Data
-1. [Kaggle - COVID Real News](https://www.kaggle.com/datasets/arashnic/covid19-fake-news?select=NewsRealCOVID-19_7.csv)
-2. [A comprehensive data repository for fake health news - dataset/content/HealthRelease](https://github.com/EnyanDai/FakeHealth/tree/master/dataset/content/HealthRelease)
+1. [Kaggle - COVID Real News](https://www.kaggle.com/datasets/arashnic/covid19-fake-news?select=NewsRealCOVID-19_7.csv) for real news
+2. [A comprehensive data repository for fake health news - dataset/content/HealthRelease](https://github.com/EnyanDai/FakeHealth/tree/master/dataset/content/HealthRelease) for fake news
