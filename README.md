@@ -8,6 +8,7 @@ The purpose of this module is to let people copy and paste the medical news that
 ## Data
 1. [Kaggle - COVID Real News](https://www.kaggle.com/datasets/arashnic/covid19-fake-news?select=NewsRealCOVID-19_7.csv) for real news
 2. [A comprehensive data repository for fake health news - dataset/content/HealthRelease](https://github.com/EnyanDai/FakeHealth/tree/master/dataset/content/HealthRelease) for fake news
+
 I combined both datasets and shuffle them, get rid of null values and unneccesary columns to get raw_df.csv in the data folder
 
 ## Visual Interface
