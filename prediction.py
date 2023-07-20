@@ -1,6 +1,7 @@
+import nltk
 from nltk.corpus import stopwords
 import joblib
-import nltk
+import pickle
 import re
 from sklearn.feature_extraction.text import TfidfVectorizer
 from nltk.stem.porter import PorterStemmer
@@ -9,8 +10,8 @@ ps = PorterStemmer()
 nltk.data.path.append('./nltk_data')
 
 
-model = joblib.load('pac_classify.pkl')
-tfidfvect = joblib.load('tfidfvectorizer.pkl')
+model = pickle.load(open('/Users/cindychang/Desktop/aipi540/Fake_Medical_News_Detection_Tool/pac_classify.pkl', 'rb'))
+tfidfvect = pickle.load(open('/Users/cindychang/Desktop/aipi540/Fake_Medical_News_Detection_Tool/tfidfvectorizer.pkl', 'rb'))
 
 
 class PredictionModel:
