@@ -16,6 +16,7 @@ I combined both datasets and shuffle them, get rid of null values and unneccesar
 I decided to use TFIDF as my vectorizer
 
 ## Metric Evaluation
+![Screenshot](https://github.com/changyuhsin1999/Fake_Medical_News_Detection_Tool/blob/main/image/Screen%20Shot%202023-07-16%20at%2012.23.04%20PM.png)
 
 ## Visual Interface
 ![Screenshot](https://github.com/changyuhsin1999/Fake_Medical_News_Detection_Tool/blob/main/image/Screen%20Shot%202023-07-20%20at%202.25.39%20PM.png)
