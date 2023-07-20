@@ -21,6 +21,7 @@ I decided to use TFIDF as my vectorizer and compare them using non-neural networ
 
 
 ## Metric Evaluation
+The final model that I chose is the passive aggresive classifier with TFIDF as vectorizer. The overall metric performance is shown in below:
 ![Screenshot](https://github.com/changyuhsin1999/Fake_Medical_News_Detection_Tool/blob/main/image/Screen%20Shot%202023-07-16%20at%2012.23.04%20PM.png)
 
 ## Visual Interface
