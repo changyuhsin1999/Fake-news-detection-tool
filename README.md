@@ -10,4 +10,5 @@ The purpose of this module is to let people copy and paste the medical news that
 2. [A comprehensive data repository for fake health news - dataset/content/HealthRelease](https://github.com/EnyanDai/FakeHealth/tree/master/dataset/content/HealthRelease) for fake news
 
 ## Visual Interface
+![Screenshot](https://github.com/changyuhsin1999/Fake_Medical_News_Detection_Tool/blob/main/image/Screen Shot 2023-07-20 at 2.25.39 PM.png)
 
