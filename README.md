@@ -5,12 +5,17 @@ As we live in this era with exploding information content, it is always difficul
 
 The purpose of this module is to let people copy and paste the medical news that they found and do a quick fact check to see whether it is reliable to trust the sources.
 
-## Data
+## Data processing
 1. [Kaggle - COVID Real News](https://www.kaggle.com/datasets/arashnic/covid19-fake-news?select=NewsRealCOVID-19_7.csv) for real news
 2. [A comprehensive data repository for fake health news - dataset/content/HealthRelease](https://github.com/EnyanDai/FakeHealth/tree/master/dataset/content/HealthRelease) for fake news
 
 
 I combined both datasets and shuffle them, get rid of null values and unneccesary columns to get raw_df.csv in the data folder
+
+## Model and Vectorizer
+I decided to use TFIDF as my vectorizer
+
+## Metric Evaluation
 
 ## Visual Interface
 ![Screenshot](https://github.com/changyuhsin1999/Fake_Medical_News_Detection_Tool/blob/main/image/Screen%20Shot%202023-07-20%20at%202.25.39%20PM.png)
