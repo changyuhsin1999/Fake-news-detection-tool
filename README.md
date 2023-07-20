@@ -27,3 +27,5 @@ The final model that I chose is the passive aggresive classifier with TFIDF as v
 
 ## Visual Interface
 ![Screenshot](https://github.com/changyuhsin1999/Fake_Medical_News_Detection_Tool/blob/main/image/Screen%20Shot%202023-07-20%20at%202.25.39%20PM.png)
+
+## Reference
