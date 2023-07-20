@@ -16,8 +16,8 @@ I combined both datasets and shuffle them, get rid of null values and unneccesar
 I decided to use TFIDF as my vectorizer and compare them using non-neural network model as baseline model
 | Model         | Accuracy      |
 | ------------- |:-------------:|
-| Passive Aggressive Classifier      | 97.1 %        |
-| SVC           | 10.9 %        |
+| Passive Aggressive Classifier      | 99.5 %        |
+| Logistic Regression         | 99.5 %        |
 
 
 ## Metric Evaluation
