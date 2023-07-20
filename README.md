@@ -13,7 +13,12 @@ The purpose of this module is to let people copy and paste the medical news that
 I combined both datasets and shuffle them, get rid of null values and unneccesary columns to get raw_df.csv in the data folder
 
 ## Model and Vectorizer
-I decided to use TFIDF as my vectorizer
+I decided to use TFIDF as my vectorizer and compare them using non-neural network model as baseline model
+| Model         | Accuracy      |
+| ------------- |:-------------:|
+| Passive Aggressive Classifier      | 97.1 %        |
+| SVC           | 10.9 %        |
+
 
 ## Metric Evaluation
 ![Screenshot](https://github.com/changyuhsin1999/Fake_Medical_News_Detection_Tool/blob/main/image/Screen%20Shot%202023-07-16%20at%2012.23.04%20PM.png)
