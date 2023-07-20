@@ -3,7 +3,7 @@ from prediction import PredictionModel
 import pickle
 import pandas as pd
 from random import randrange
-from format import OriginalTextForm
+from html_format import OriginalTextForm
 
 
 app = Flask(__name__)
