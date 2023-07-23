@@ -14,7 +14,7 @@ def home():
     form = OriginalTextForm()
 
     if form.generate.data:
-        data = pd.read_csv("/Users/cindychang/Desktop/aipi540/Fake_Medical_News_Detection_Tool/data/raw_df.csv")
+        data = pd.read_csv("data/raw_df.csv")
         index = randrange(0, len(data)-1, 1)
         original_text = data.loc[index].text
         form.original_text.data = str(original_text)
