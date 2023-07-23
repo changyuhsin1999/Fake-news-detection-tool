@@ -8,7 +8,7 @@ from html_format import OriginalTextForm
 
 app = Flask(__name__)
 
-app.config['SECRET_KEY'] = 'adjiqojdaluhfixzdbjweuho3446909728'
+app.config['SECRET_KEY'] = 'secretcode'
 @app.route("/", methods=['POST', 'GET'])
 def home():
     form = OriginalTextForm()
