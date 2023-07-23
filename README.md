@@ -32,4 +32,19 @@ I decided to use Flask/html to display the passage prediction. Users can copy th
 
 ![Screenshot](https://github.com/changyuhsin1999/Fake_Medical_News_Detection_Tool/blob/main/image/Screen%20Shot%202023-07-20%20at%202.25.39%20PM.png)
 
+## How to get started
+### Prepare your environment
+
+```
+conda create --name envir python=3.7.15
+conda activate envir
+```
+### Install requirement.txt
+
+```
+pip install -r requirements.txt
+```
+### Train the model
+Run the PA_Train.py and LSTM_Train.py python script to train and evaluate your model
+
 ## Reference
