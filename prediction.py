@@ -10,8 +10,8 @@ ps = PorterStemmer()
 nltk.data.path.append('./nltk_data')
 
 
-model = pickle.load(open('/Users/cindychang/Desktop/aipi540/Fake_Medical_News_Detection_Tool/models/pac_classify.pkl', 'rb'))
-tfidfvect = pickle.load(open('/Users/cindychang/Desktop/aipi540/Fake_Medical_News_Detection_Tool/models/tfidfvectorizer.pkl', 'rb'))
+model = pickle.load(open('models/pac_classify.pkl', 'rb'))
+tfidfvect = pickle.load(open('models/tfidfvectorizer.pkl', 'rb'))
 
 
 class PredictionModel:
