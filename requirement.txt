@@ -1,4 +1,6 @@
 numpy
+nltk
+torch
 tensorflow
 Flask==1.1.1
 nltk==3.4.5
