@@ -29,6 +29,7 @@ The final model that I chose is the passive aggresive classifier with TFIDF as v
 
 ## Visual Interface
 I decided to use Flask/html to display the passage prediction. Users can copy the news that they've found on internet and paste it in the empty text box or press the "generate" button to generate text from my dataset.
+
 ![Screenshot](https://github.com/changyuhsin1999/Fake_Medical_News_Detection_Tool/blob/main/image/Screen%20Shot%202023-07-20%20at%202.25.39%20PM.png)
 
 ## Reference
