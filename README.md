@@ -18,12 +18,12 @@ I decided to use TFIDF as my vectorizer and compare them using non-neural networ
 | ------------- |:-------------:|
 | Passive Aggressive Classifier      | 99.5 %        |
 | Logistic Regression         | 99.5 %        |
-| LSTM       | 97.8 %        |
+| LSTM       | 98.6 %        |
 
 
 
 ## Metric Evaluation
-The final model that I chose is the passive aggresive classifier with TFIDF as vectorizer. The training time was a lot faster and the performance was more robust. The overall metric performance is shown in below:
+The final model that I chose is the passive aggresive classifier with TFIDF as vectorizer. The training time was a lot faster and the performance was more robust. The overall metric performance for the final model is shown as below:
 
 ![Screenshot](https://github.com/changyuhsin1999/Fake_Medical_News_Detection_Tool/blob/main/image/Screen%20Shot%202023-07-16%20at%2012.23.04%20PM.png)
 
