@@ -15,7 +15,7 @@ def get_tokenized():
   '''
   Uses Tensorflow Tokenizer to filter out punctuation and split into words with space, apply texts_to_sequences to get matric representation
   '''
-  raw_df = pd.read_csv('/content/Fake_Medical_News_Detection_Tool/data/raw_df.csv')
+  raw_df = pd.read_csv('data/raw_df.csv')
   tokenizer = Tokenizer(num_words = 3000, filters='!"#$%&()*+,-./:;<=>?@[\]^_`{|}~\t\n', lower = True, split = ' ')
   tokenizer.fit_on_texts(texts = raw_df['full_text'])
   X = tokenizer.texts_to_sequences(texts = raw_df['full_text'])
