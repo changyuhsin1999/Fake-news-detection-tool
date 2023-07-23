@@ -45,9 +45,9 @@ conda activate envir
 pip install -r requirements.txt
 ```
 ### Train the model
-Run the PA_Train.py and LSTM_Train.py python script to train and evaluate your model
+Run the [PA_Train.py](https://github.com/changyuhsin1999/Fake_Medical_News_Detection_Tool/blob/main/scripts/PA_Train.py) and [LSTM_Train.py](https://github.com/changyuhsin1999/Fake_Medical_News_Detection_Tool/blob/main/scripts/LSTM_Train.py) python script to train and evaluate your model
 
 ### Run the website
-Run web.py python script to see the demo
+Run [web.py](https://github.com/changyuhsin1999/Fake_Medical_News_Detection_Tool/blob/main/web.py) python script to see the demo
 
 ## Reference
