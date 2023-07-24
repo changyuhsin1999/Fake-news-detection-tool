@@ -51,3 +51,6 @@ Run the [PA_Train.py](https://github.com/changyuhsin1999/Fake_Medical_News_Detec
 Run [web.py](https://github.com/changyuhsin1999/Fake_Medical_News_Detection_Tool/blob/main/web.py) python script to see the demo
 
 ## Reference
+[Flask tutorial](https://towardsdatascience.com/how-to-build-a-fake-news-detection-web-app-using-flask-c0cfd1d9c2d4)
+[Dropout method in Tensorflow](https://saturncloud.io/blog/how-to-implement-dropout-in-lstm-neural-networks-with-tensorflow/)
+[Comparison of BERT and LSTM](https://arxiv.org/abs/2009.05451)
