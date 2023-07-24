@@ -56,3 +56,5 @@ Run [web.py](https://github.com/changyuhsin1999/Fake_Medical_News_Detection_Tool
 [Dropout method in Tensorflow](https://saturncloud.io/blog/how-to-implement-dropout-in-lstm-neural-networks-with-tensorflow/)
 
 [Comparison of BERT and LSTM](https://arxiv.org/abs/2009.05451)
+
+[HTML templates](https://colorlib.com/wp/templates/)
